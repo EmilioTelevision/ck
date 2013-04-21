@@ -4,17 +4,20 @@ height: 238px;
 position: fixed;
 width: 100%;
 z-index: 5;
+
 }
 .header_inner {
 width:960px;
 margin:0 auto;
 padding-top:15px;
 }
+
 .logo {
 width:360px;
 height:69px;
 background: url('../../images/logo-3.png') center top no-repeat;
 cursor:pointer;	
+display:block;
 }
 .nav {
 float:right;
@@ -28,7 +31,7 @@ margin-right:40px;
 .social {
 float: right;
 margin-top: -81px;
-margin-right: 160px;
+margin-right: 180px;
 }
 .social li {
 display:inline;

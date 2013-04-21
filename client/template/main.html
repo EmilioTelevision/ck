@@ -4,24 +4,78 @@
 </head>
 <body>
 	<div id="container">
+		
 		{{>ribbon}}
 		{{>header}}
+		
+		{{renderPage}}
+		
+		
+		{{>footer}}
+	</div>
+</body>
+
+
+
+
+
+<template name="page_home">
+	{{>kombucha}}
+	{{>bar}}
+	{{>keg_face}}
+	{{>contact}}
+</template>
+
+
+<template name="page_story">
+	{{>the_start}}
+	{{>the_light}}
+	{{>the_crash}}
+	{{>the_impact}}
+	{{>the_change}}
+</template>
+
+
+<template name="page_kombucha">
+	{{>the_tea}}
+	{{>the_brew}}
+	{{>more_brew}}
+	{{>future}}
+	{{>future_two}}
+	{{>future_three}}
+	{{>tyler}}
+</template>
+
+<template name="page_order">
+</template>
+
+
+<template name="page_bars">
+</template>
+
+<template name="page_restaurants">
+</template>
+
+<template name="page_offices">
+		<!-- TOP INTRO FLUFF-->
 		{{>kombucha}}
-		{{>bar}}
-		{{>keg_face}}
-		{{>contact}}
-		{{>the_start}}
-		{{>the_light}}
-		{{>the_crash}}
-		{{>the_impact}}
-		{{>the_change}}
-		{{>the_tea}}
+		
 		{{>the_brew}}
-		{{>more_brew}}
-		{{>future}}
-		{{>future_two}}
-		{{>future_three}}
-		{{>tyler}}
+		
+		
+		{{>keg_face}}
+		{{>bar}}
+		{{>contact}}
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
 		{{>blue_tap}}
 		{{>two_kegs}}
 		{{>keg_drink}}
@@ -33,6 +87,10 @@
 		{{>old_tap}}
 		{{>for_bars}}
 		{{>car}}
-		{{>footer}}
-	</div>
-</body>
+	
+</template>
+
+
+
+
+
