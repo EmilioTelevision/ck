@@ -33,6 +33,9 @@ line-height: 1.4;
 width:100%;
 height:100%;
 overflow-x: hidden;
+overflow: hidden;
+margin-bottom: 200px;
+padding-bottom: 40px;
 }
 
 h1 {

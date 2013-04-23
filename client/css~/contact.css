@@ -1,9 +1,7 @@
 #contact_wrap {
-height: 718px;
 width:100%;	        
-padding-top: 20px;
 position: relative;
-top: 200px;
+height: 718px;
 }
 #credits {
 width:960px;
@@ -19,9 +17,9 @@ background: rgba(255, 255, 255, 0.61);
 -webkit-border-radius: 4px;
 border-radius: 4px;
 border:1px solid rgba(29, 69, 99, 0.29);
--webkit-box-shadow: -2px 2px 6px rgba(50, 50, 50, 0.61);
--moz-box-shadow:    -2px 2px 6px rgba(50, 50, 50, 0.61);
-box-shadow:         -2px 2px 6px rgba(50, 50, 50, 0.61);
+-webkit-box-shadow: 2px 2px 40px 1px #0069aa;
+-moz-box-shadow: 2px 2px 40px 1px #0069aa;
+box-shadow: 2px 2px 40px 1px #0069aa;
 }
 
 #page-wrap p.charles {
