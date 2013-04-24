@@ -7,11 +7,12 @@ Meteor.Router.add({
 		Session.set('page', page);
 		if(page == 'order') {
 			setTimeout(function() {
-				$('html,body').animate({scrollTop: $('#contact_wrap').offset().top - 180}, 600, 'easeInBack');
+				//$('html,body').animate({scrollTop: $('#contact_wrap').offset().top - 180}, 600, 'easeInBack');
 			}, 200);
+			$('html,body').animate({scrollTop: 0}, 750, 'easeOutExpo');
 		}
 		else {
-			$('html,body').animate({scrollTop: 0}, 750, 'easeInBack');
+			$('html,body').animate({scrollTop: 0}, 750, 'easeOutExpo');
 		}
 		return 'page_'+page;
 	},
