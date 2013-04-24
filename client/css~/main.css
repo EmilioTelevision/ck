@@ -54,7 +54,7 @@ text-decoration:none;
 color:#686969;
 background-color:none;
 }
-a:hover {
+a:hover, a.active {
 color:#0069aa;	
 }
 img.beerman, img.beerman_low {

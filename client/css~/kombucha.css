@@ -38,6 +38,8 @@ margin-top: 43px;
 display: block;
 }
 .learn:hover {
+cursor:pointer;
+color:white;
 background: url('../../images/lrnmre.png') 0 -59px no-repeat;
 }
 .tool_tip {
