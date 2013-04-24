@@ -50,10 +50,13 @@ text-shadow: 2px 2px 5px black;
 }
 a, a:link {
 text-decoration:none;
-color:#686969;
 background-color:none;
 }
-a:hover, a.active {
+#header_wrap a, #footer_wrap a{
+color:#686969;
+}
+
+#header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active {
 color:#0069aa;	
 }
 img.beerman, img.beerman_low {
