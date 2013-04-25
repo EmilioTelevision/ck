@@ -61,6 +61,10 @@ position: relative;
 #header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active {
 color:#0069aa;	
 }
+#header_wrap #ribbon a, #header_wrap #ribbon a:hover {
+    color:white;    
+}
+
 img.beerman, img.beerman_low {
 border:6px solid #0069aa;
 margin-left:90px;

@@ -1,22 +1,24 @@
-Template.ribbon.events({
-	'mouseenter .announcements': function() {
+Meteor.startup(function() {
+	$('.announcements').live('mouseenter', function() {
 		$('#ribbon').show().animate({
 			opacity: 1,
 			top: 0
-		}, 500, 'easeOutExpo');
-	},
-	'mouseleave #ribbon': function() {
+		}, 200, 'easeOutExpo');
+	});
+	$('#ribbon').live('mouseleave', function() {
 		$('#ribbon').animate({
 			opacity: 0,
 			top: -500
-		}, 500, 'easeOutExpo', function() {
+		}, 400, 'easeOutExpo', function() {
 			$(this).hide();
 		});
-	},
-	'mouseenter .tap, mouseenter .order': function() {
+	});
+	
+	$('.tap, .order').live('mouseenter', function() {
 		$('.tap').css('transform', 'rotate(10deg)');
-	},
-	'mouseleave .tap, mouseleave .order': function() {
+	});
+	$('.tap, .order').live('mouseleave', function() {
 		$('.tap').css('transform', 'rotate(0deg)');
-	}
+	});
+	
 });
