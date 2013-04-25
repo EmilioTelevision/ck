@@ -8,6 +8,10 @@ Meteor.Router.add({
 		else startPage();
 		
 		pageLoaded = true;
+		
+		$('#footer a, .nav a').removeClass('active');
+		
+		
 		return 'page_home'
 	},
 	'/:page': function(page) {
