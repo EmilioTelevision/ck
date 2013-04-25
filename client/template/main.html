@@ -5,14 +5,21 @@
 </head>
 <body>
 	<div id="container">
-		
-		{{>ribbon}}
-		{{>header}}
+
+		{{#constant}}
+			<div id="chomper_top"><div id="header_glow"></div></div>
+			{{>header}}
+		{{/constant}}
 		
 		<div style="height: 100px;"></div>
-		{{renderPage}}
+		<div id="main_content" style="display:none;">
+			{{renderPage}}
+		</div>
 		
-		{{>footer}}
+		{{#constant}}
+			{{>footer}}
+			<div id="chomper_bottom"><div id="footer_glow"></div></div>
+		{{/constant}}
 	</div>
 </body>
 

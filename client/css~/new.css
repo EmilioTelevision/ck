@@ -88,3 +88,58 @@ h1.text_standalone {
 }
 
 
+#chomper_top {
+	background-color:#26292e; 
+	position:fixed;
+	top: -350px;
+	height: 350px;
+	width: 100%;
+	z-index: 5;
+}
+
+#chomper_bottom {
+	background-color:#26292e; 
+	position:fixed;
+	bottom: -350px;
+	height: 350px;
+	width: 100%;
+	z-index: 4;
+}
+
+
+#header_glow, #header_glow_two  {
+	background: url(/images/headlights.png) no-repeat;
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	top: 140px;
+	left: -80px;
+	opacity: .8;
+	z-index: 3;
+	position: relative;
+	left: 50%;
+	margin-left: -500px;
+}
+
+#header_glow_two {
+	top: -296px;
+}
+
+#footer_glow, #footer_glow_two {
+	background: url(/images/footlights.png) no-repeat;
+	width: 1200px;
+	height: 448px;
+	position: absolute;
+	opacity: .8;
+	z-index: 2;
+	top: -115px; 
+	left: 202px;
+}
+
+#footer_glow_two {
+	top: 33px;
+	left: 200px;
+	height: 115px;
+}
+
+

@@ -54,6 +54,8 @@ background-color:none;
 }
 #header_wrap a, #footer_wrap a{
 color:#686969;
+z-index: 5;
+position: relative;
 }
 
 #header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active {
@@ -92,6 +94,7 @@ background:#d7d7d7;
    box-shadow:         inset 0 0 15px rgba(0, 0, 0, 0.15);	
 padding:10px;
 margin-bottom:20px;
+text-shadow: 1px 1px 1px white;
 }
 .white {
 background:#f7f7f7;
