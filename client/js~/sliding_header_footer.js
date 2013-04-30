@@ -19,6 +19,14 @@ changeBlinds = function() {
 closeBlinds = function(halfHeight) {
 	$('.social, .announcements, .nav, #footer_links').fadeOut('fast');
 	
+	$('#ribbon').animate({
+		opacity: 0,
+		top: -500
+	}, 300, 'easeOutExpo', function() {
+		$(this).hide();
+	});
+	
+	
 	$('#header_wrap').animate({
 	    top: '+='+halfHeight
 	}, 300, 'easeOutExpo');
