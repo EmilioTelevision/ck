@@ -1,3 +1,4 @@
+
 changeBlinds = function() {
 	console.log('changing blinds');
 	

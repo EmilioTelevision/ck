@@ -12,7 +12,7 @@ Meteor.Router.add({
 		$('#footer a, .nav a').removeClass('active');
 		
 		
-		return 'page_home'
+		return 'page_home';
 	},
 	'/:page': function(page) {
 		Session.set('page', page);
